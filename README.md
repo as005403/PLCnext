@@ -1,6 +1,7 @@
-# <span style="color:Red"> Web-based Management </span>
+# WEB capabilities of the PLCnext platform
+## <span style="color:Red"> Web-based Management </span>
 
-## WBM access and first steps:
+### WBM access and first steps:
 Each PLCnext Technology controller features a web-based management (WBM). In the WBM, you can access static and dynamic controller information and modify certain controller settings. You can call WBM via every Ethernet interface of the controller.
 
 #### <span style="color:Blue"> Establishing a connection to WBM </span>
@@ -36,7 +37,7 @@ If you disable user authentication, login is not necessary to access WBM. In thi
     <img src="img/WBM_Login.png"
 </p>
 
-#### Initial access as an administrator
+##### Initial access as an administrator
 When you access WBM for the first time, log in as the administrator.
 
 - Enter the user name admin in the Username input field.
@@ -46,7 +47,7 @@ The administrator password is printed on the controller. For more detailed infor
 
 => The WBM start page opens.
 
-#### Logging in as a user
+##### Logging in as a user
 If WBM user authentication is enabled, log in using your user details.
 
 - Enter your user name in the Username input field.
@@ -55,7 +56,7 @@ If WBM user authentication is enabled, log in using your user details.
 
 => The WBM start page opens.
 
-## Information - General Data:
+### Information - General Data:
 #### <span style="color:Blue"> General Data page </span>
 On the General Data page, you will find general details about the device, e.g., hardware and firmware versions, the order number, as well as manufacturer details.
 
@@ -63,7 +64,7 @@ On the General Data page, you will find general details about the device, e.g., 
     <img src="img/WBM_Allgemeine_Daten.png"
 </p>
 
-## Information - Network configuration:
+### Information - Network configuration:
 #### <span style="color:Blue"> Network Configuration page </span>
 The Network configuration page provides status information on all Ethernet interfaces on a controller. 
 
@@ -73,7 +74,7 @@ The Network configuration page provides status information on all Ethernet inter
     <img src="img/WBM_Network-config_.png"
 </p>
 
-## Security - User Authentication:
+### Security - User Authentication:
 #### <span style="color:Blue"> User Authentication page </span>
 The security-related settings for the controller are configured in the <span style="color:Blue"> Security </span> area of the Web-based Management (WBM).
 
@@ -87,7 +88,7 @@ When <span style="color:Blue"> User Authentication </span> is disabled, authenti
 
 User authentication is enabled by default. In the delivery state, the <span style="color:Blue"> admin </span> user is already created with administrator rights.
 
-## Firewall configuration:
+### Firewall configuration:
 #### <span style="color:Blue"> Concept </span>
 PLCnext Technology  relies on the proven and commonly used Linux® firewall nftables. On the PLCnext Control, you don't need to configure the firewall rules via cryptic Linux shell commands: Just log on to the Web-based Management and choose from the predefined basic rules, or add your own rules to the set.
 
@@ -102,8 +103,8 @@ The controller firewall is configured via the Web-based Management. Log in to th
 
 
 
-# <span style="color:Red"> PLCnext Engineer </span>
-## PLCnext Engineer user interface:
+## <span style="color:Red"> PLCnext Engineer </span>
+### PLCnext Engineer user interface:
 <p align="center">
     <img src="img/Benutzeroberflaeche_PLCNE.png"
 </p>
@@ -116,7 +117,7 @@ The controller firewall is configured via the Web-based Management. Log in to th
 6. Cross-functional area
 7. Status bar
 
-## Transferring a project to the controller
+### Transferring a project to the controller
 To transfer the project to the controller, proceed as follows:
 - Double-click the controller node in the PLANT area.
 
@@ -136,7 +137,7 @@ If you do not have the necessary authorization to execute the function, PLCnext 
 
 The project is compiled, transferred to the controller, and executed.
 
-## Creating a PLCNEXT TECHNOLOGY HMI application
+### Creating a PLCNEXT TECHNOLOGY HMI application
 #### <span style="color:Blue"> General information </span>
 
 In PLCNEXT TECHNOLOGY, you can create an HMI application with which you can visualize, monitor and control your application on your controller.
